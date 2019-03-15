@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2018.3/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2018.3/system/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_ISO8583_V1.2.1382672074.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="ISO8583" t="IncludeRecursive">
+        <e p="DataElement" t="Include">
+          <e p="DataElementEnum.cs" t="Include" />
+          <e p="DataSet.cs" t="Include" />
+          <e p="Interfaces" t="Include">
+            <e p="DataSet" t="Include">
+              <e p="IDataSet.cs" t="Include" />
+              <e p="ITLV.cs" t="Include" />
+            </e>
+            <e p="IDataElementBasic.cs" t="Include" />
+            <e p="ISubDataElement.cs" t="Include" />
+          </e>
+          <e p="SubElement.cs" t="Include" />
+          <e p="TLV.cs" t="Include" />
+        </e>
+        <e p="ISO8583.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="ISO8583.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="ISO8583_Test" t="IncludeRecursive">
+        <e p="Class1.cs" t="Include" />
+        <e p="ISO8583_Test.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="ISO8583_Test.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="ISO8583_V1.2.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
