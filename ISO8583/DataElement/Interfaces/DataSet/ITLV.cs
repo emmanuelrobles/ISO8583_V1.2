@@ -1,9 +1,8 @@
 namespace ISO8583.DataElement.Interfaces.DataSet
 {
-    public interface ITLV
+    public interface ITLV : IDataElementBasic
     {
         string Tag { get; set; }
-        int Length { get; set; }
         string Value { get; set; }
         
     }

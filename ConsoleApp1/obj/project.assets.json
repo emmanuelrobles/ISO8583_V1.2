@@ -708,11 +708,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/emmanuel/RiderProjects/ISO8583_V1.2/ISO8583_Test/ISO8583_Test.csproj",
-      "projectName": "ISO8583_Test",
-      "projectPath": "/home/emmanuel/RiderProjects/ISO8583_V1.2/ISO8583_Test/ISO8583_Test.csproj",
+      "projectUniqueName": "/home/emmanuel/RiderProjects/ISO8583_V1.2/ConsoleApp1/ConsoleApp1.csproj",
+      "projectName": "ConsoleApp1",
+      "projectPath": "/home/emmanuel/RiderProjects/ISO8583_V1.2/ConsoleApp1/ConsoleApp1.csproj",
       "packagesPath": "/home/emmanuel/.nuget/packages/",
-      "outputPath": "/home/emmanuel/RiderProjects/ISO8583_V1.2/ISO8583_Test/obj/",
+      "outputPath": "/home/emmanuel/RiderProjects/ISO8583_V1.2/ConsoleApp1/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
