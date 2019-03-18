@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76b3950b-a524-4d1c-a07f-37fa08fe10e2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ISO8583_V1.2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ISO8583_V1.2/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ISO8583_V1.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ISO8583_V1.2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp2.2/ISO8583.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp2.2/ISO8583.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp2.2/ISO8583.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp2.2/ISO8583.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp2.2/ConsoleApp1.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp2.2/ConsoleApp1.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISO8583/DataElement/DataElementBasic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ISO8583/DataElement/DataElementBasic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISO8583/DataElement/DataElementBitmap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ISO8583/DataElement/DataElementBitmap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISO8583/DataElement/DataElementBitmapDataElement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISO8583/DataElement/DataSet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ISO8583/DataElement/DataSet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISO8583/DataElement/ElementRange.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ISO8583/DataElement/ElementRange.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISO8583/DataElement/ElementRangeDataElement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISO8583/DataElement/Interfaces/DataElementBitmap/IDataElementBitmap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ISO8583/DataElement/Interfaces/DataElementBitmap/IDataElementBitmap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISO8583/DataElement/Interfaces/DataElementBitmap/IDataElementBitmapDataElement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISO8583/DataElement/Interfaces/DataElementRange/IDataElementRange.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ISO8583/DataElement/Interfaces/DataElementRange/IDataElementRange.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISO8583/DataElement/Interfaces/DataElementRange/IDataElementRangeDataElement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISO8583/DataElement/TLV.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ISO8583/DataElement/TLV.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISO8583/bin/Debug/netcoreapp2.2/ISO8583.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ISO8583/bin/Debug/netcoreapp2.2/ISO8583.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISO8583/bin/Debug/netcoreapp2.2/ISO8583.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ISO8583/bin/Debug/netcoreapp2.2/ISO8583.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISO8583/obj/Debug/netcoreapp2.2/ISO8583.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ISO8583/obj/Debug/netcoreapp2.2/ISO8583.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISO8583/obj/Debug/netcoreapp2.2/ISO8583.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ISO8583/obj/Debug/netcoreapp2.2/ISO8583.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISO8583/obj/Debug/netcoreapp2.2/ISO8583.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ISO8583/obj/Debug/netcoreapp2.2/ISO8583.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="76b3950b-a524-4d1c-a07f-37fa08fe10e2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -374,12 +352,12 @@
       <updated>1552661217850</updated>
       <workItem from="1552661220397" duration="7789000" />
       <workItem from="1552671271626" duration="17184000" />
-      <workItem from="1552914742013" duration="1619000" />
+      <workItem from="1552914742013" duration="2347000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26592000" />
+    <option name="totallyTimeSpent" value="27320000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -393,24 +371,24 @@
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26508024" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26508024" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3293348" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991276" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
       <window_info anchor="bottom" id="NuGet" order="7" weight="0.3293348" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3293348" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.3293348" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3293348" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.3293348" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="14" weight="0.3293348" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
