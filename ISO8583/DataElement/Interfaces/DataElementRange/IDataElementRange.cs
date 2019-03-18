@@ -6,6 +6,6 @@ namespace ISO8583.DataElement.Interfaces.DataElementRange
     {
         
         short[] ActiveFields { get; set; }
-        List<IDataElementRangeDataElement> SubElementRangeDataElements { get; set; }
+        List<IDataElementBasic> SubElementRangeDataElements { get; set; }
     }
 }

@@ -8,8 +8,6 @@ namespace ISO8583.DataElement.Interfaces.DataElementBitmap
     public interface IDataElementBitmap : IDataElementBasic
     {
         IBitmap Bitmap { get; set; }
-        
-        
-        List<IDataElementBitmapDataElement> SubDataElementDataElements { get; set; }
+        List<IDataElementBasic> SubDataElementDataElements { get; set; }
     }
 }
