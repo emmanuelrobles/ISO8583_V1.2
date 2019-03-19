@@ -4,7 +4,7 @@ namespace ISO8583.DataElement.Interfaces.DataSet
 {
     public interface IDataSet : IDataElementBasic
     {
-        int Id { get; set; }
-        List<ITLV> TlVs { get; set; }
+        int Id { get; }
+        IList<ITLV> TlVs { get; }
     }
 }

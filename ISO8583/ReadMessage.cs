@@ -15,15 +15,15 @@ namespace ISO8583
         private string _iso;
         private string _dataFields;
         private IDictionary<short, IDataElementBasic> _dataElements;
-        
+
         public ReadMessage(IMap map, string iso)
         {
             //create the data elements
             _dataElements = new Dictionary<short, IDataElementBasic>();
-            
+
             //create the bitmap manager
             _bitmapManager = new BitmapManager();
-            
+
             //save the ISO8583 msg
             this._iso = iso;
 
@@ -35,84 +35,36 @@ namespace ISO8583
             {
                 //get all bitmaps and remove them
                 _bitmapManager.AddBitmap(new Bitmap.Bitmap() {BitmapHex = iso.Substring(0, Util.BTIMAP_LENGTH)});
-                iso=iso.Remove(0, Util.BTIMAP_LENGTH);
-                
+                iso = iso.Remove(0, Util.BTIMAP_LENGTH);
             } while (_bitmapManager.HasNextBitmap());
 
             //save the dataFields
             this._dataFields = iso;
 
-            _dataElements = ReadFields(map, ref iso);
+            _dataElements = Util.ReadFields(map, _bitmapManager.GetActiveBits(), ref iso);
+
             
+            //trsting
+            foreach (short bit in _bitmapManager.GetActiveBits())
+            {
+                Console.WriteLine(bit);
+            }
+
             foreach (var a in _dataElements)
             {
                 Console.WriteLine(a.Value.Value);
-            }
-            
-            
-            
-            
-        }
-
-        private IDictionary<short, IDataElementBasic> ReadFields(IMap map, ref string iso)
-        {
-            IDictionary<short, IDataElementBasic> activeValues = new Dictionary<short, IDataElementBasic>();
-
-            foreach (var activeBit in _bitmapManager.GetActiveBits())
-            {
-                activeValues.Add(activeBit,ReadField(map[activeBit], ref iso));
-            }
 
 
-            return activeValues;
-        }
-
-        private IDataElementBasic ReadField(IDataElementBasic map,ref string iso)
-        {
-            int length = map.Length ?? 0;
-            
-            if (map.LengthType!=LENGTH_TYPE.FIX)
-            {
-                int tempLength = 0;
-                
-                switch (map.LengthType)
+                if (a.Value.GetType() == typeof(DataElementBitmap))
                 {
-                    case LENGTH_TYPE.LLV:
-                        tempLength = 2;
-                        break;
-                    case LENGTH_TYPE.LLLV:
-                        tempLength = 3;
-                        break;
+                    var dataElementBitmap = (DataElementBitmap) a.Value;
+                    dataElementBitmap.BuildBitmap();
                     
-                }   
-                
-                
-                length = int.Parse(iso.Substring(0, tempLength));
-                iso = iso.Remove(0, tempLength);
+                    Console.WriteLine(dataElementBitmap.Length);
                     
                     
-                //if length is odd and if it has a leading 0 remove it
-                if (length % 2 != 0 && iso[0].Equals('0'))
-                {
-                    iso = iso.Remove(0, 1);
                 }
-                
             }
-
-            string value = iso.Substring(0, length);
-            iso = iso.Remove(0, length);
-
-
-            if (map is IDataElementBitmap)
-            {
-                
-            }
-            
-            
-            //Testing
-            DataElementBasic dataElementBasic = new DataElementBasic(){Value = value,Length = length,DataType = map.DataType,LengthType = map.LengthType};
-            return dataElementBasic;
         }
-        
     }
 }

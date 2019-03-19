@@ -1,13 +1,13 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/emmanuel/RiderProjects/ISO8583_V1.2/ISO8583/ISO8583.csproj",
+    "projectUniqueName": "C:\\Users\\Emanuel\\Documents\\work\\New folder\\ISO8583_V1.2\\ISO8583\\ISO8583.csproj",
     "projectName": "ISO8583",
-    "projectPath": "/home/emmanuel/RiderProjects/ISO8583_V1.2/ISO8583/ISO8583.csproj",
-    "outputPath": "/home/emmanuel/RiderProjects/ISO8583_V1.2/ISO8583/obj/",
+    "projectPath": "C:\\Users\\Emanuel\\Documents\\work\\New folder\\ISO8583_V1.2\\ISO8583\\ISO8583.csproj",
+    "outputPath": "C:\\Users\\Emanuel\\Documents\\work\\New folder\\ISO8583_V1.2\\ISO8583\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
       "netcoreapp2.2"

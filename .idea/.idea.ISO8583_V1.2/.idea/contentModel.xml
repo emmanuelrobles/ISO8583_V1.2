@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
-    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
-    <e p="$USER_HOME$/.Rider2018.3/system/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/.Rider2018.3/system/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_ISO8583_V1.2.1382672074.00" t="ExcludeRecursive" />
-    <e p="$PROJECT_DIR$" t="IncludeFlat">
+    <e p="C:\Users\Emanuel\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Emanuel\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_ISO8583_V1.2.1668069761.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Emanuel\Documents\work\New folder\ISO8583_V1.2" t="IncludeFlat">
       <e p="ConsoleApp1" t="IncludeRecursive">
-        <e p="ConsoleApp1.csproj" t="IncludeRecursive" />
-        <e p="Program.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="ConsoleApp1.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.2" t="Include">
@@ -17,8 +14,10 @@
             </e>
           </e>
         </e>
+        <e p="Program.cs" t="Include" />
       </e>
       <e p="ISO8583" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
         <e p="Bitmap" t="Include">
           <e p="Bitmap.cs" t="Include" />
           <e p="BitmapManager.cs" t="Include" />
@@ -31,8 +30,8 @@
           <e p="DataElementBasic.cs" t="Include" />
           <e p="DataElementBitmap.cs" t="Include" />
           <e p="DataElementEnum.cs" t="Include" />
+          <e p="DataElementRange.cs" t="Include" />
           <e p="DataSet.cs" t="Include" />
-          <e p="ElementRange.cs" t="Include" />
           <e p="Interfaces" t="Include">
             <e p="DataElementBitmap" t="Include">
               <e p="IDataElementBitmap.cs" t="Include" />
@@ -57,9 +56,6 @@
             <e p="VisaMap.cs" t="Include" />
           </e>
         </e>
-        <e p="ReadMessage.cs" t="Include" />
-        <e p="Util.cs" t="Include" />
-        <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.2" t="Include">
@@ -67,6 +63,8 @@
             </e>
           </e>
         </e>
+        <e p="ReadMessage.cs" t="Include" />
+        <e p="Util.cs" t="Include" />
       </e>
       <e p="ISO8583_V1.2.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
